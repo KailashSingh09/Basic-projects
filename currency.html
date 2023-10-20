@@ -40,7 +40,7 @@
         <br>
         <label for="">select currency</label>
         
-        <select name="currency" id="kailash" onchange="kailash(this.value)">
+        <select name="currency" id="kailash" onchange="hello(this.value)">
         <option value="279">Dinnar</option>
         <option value="94">Euro</option>
         <option value="83">Dollar</option>
@@ -51,11 +51,11 @@
     </form>
         <script>
             
-            function kailash(val){
+            function hello(val){
                 let inputs=document.querySelectorAll("input")
                 inputs[1].value=val*inputs[0].value
-
-        
+            
+                
             }
             
             
